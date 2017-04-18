@@ -1,0 +1,9 @@
+{
+  "name": "task_list server",
+  "protocol": "http",
+  "host": "localhost",
+  "port": 2804,
+  "logsPath": "./logs",
+  "mysql_username": "root",
+  "mysql_password": ""
+}

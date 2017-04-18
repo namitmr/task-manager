@@ -1,0 +1,24 @@
+block content
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Tasks
+
+        // register form
+        form(method='POST' action='/task')
+          div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', placeholder='task name' name='name')
+          div.form-group
+            label(for='createdBy') CreatedBy:
+            input#email.form-control(type='text', placeholder='name@email.com' name='createdBy')
+          div.form-group
+            label(for='description') Description:
+            input#favoriteBook.form-control(type='text', placeholder='description' name='description')
+          div.form-group
+            label(for='ID') ID:
+            input#pw.form-control(type='text' name='id')
+          div.form-group
+            label(for='endDate') EndDate:
+            input#pw2.form-control(type='date' name='endDate')
+          button.btn.btn-primary(type='submit') Submit
