@@ -4,4 +4,4 @@ A NodeJs task manager being built with textual search apis and complete crud fun
 Requirements:
 `NodeJs/npm` need to be installed.
 
-For checking out current project, `git pull <URL>`, `npm install` and `node app.js` on the parent directory.
+For checking out current project, `git clone <URL>`, `npm install` and `node app.js` on the parent directory.
